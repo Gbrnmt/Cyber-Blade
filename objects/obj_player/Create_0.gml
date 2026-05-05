@@ -5,5 +5,5 @@ velh		= 0;
 velv		= 0;
 vel		    = 2;
 grav	    = 0.3;
-vel_jump	= 4;
+vel_jump	= 7;
 
