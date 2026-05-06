@@ -1,21 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"obj_entidade",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_entidade",
   "overriddenProperties":[],
   "parent":{
     "name":"objetos",
     "path":"folders/objetos.yy",
   },
-  "parentObjectId":{
-    "name":"obj_entidade",
-    "path":"objects/obj_entidade/obj_entidade.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,13 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_idle_player_direita",
-    "path":"sprites/spr_idle_player_direita/spr_idle_player_direita.yy",
-  },
-  "spriteMaskId":{
-    "name":"spr_idle_player_direita",
-    "path":"sprites/spr_idle_player_direita/spr_idle_player_direita.yy",
-  },
+  "spriteId":null,
+  "spriteMaskId":null,
   "visible":true,
 }

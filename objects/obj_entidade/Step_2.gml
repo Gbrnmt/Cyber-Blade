@@ -2,6 +2,7 @@
 // Você pode escrever seu código neste editor
 
 
+
 //fazendo a colisao horizontal
 // checando se eu estou colidindo com a parede
 var _col	= instance_place(x + velh, y, obj_block);

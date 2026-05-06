@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"obj_porco",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_porco",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"inimigos",
+    "path":"folders/objetos/inimigos.yy",
   },
   "parentObjectId":{
     "name":"obj_entidade",
@@ -29,17 +29,19 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"pode_cair","filters":[],"listItems":[],"multiselect":false,"name":"pode_cair","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_idle_player_direita",
-    "path":"sprites/spr_idle_player_direita/spr_idle_player_direita.yy",
+    "name":"spr_inimigo_porco_idle",
+    "path":"sprites/spr_inimigo_porco_idle/spr_inimigo_porco_idle.yy",
   },
   "spriteMaskId":{
-    "name":"spr_idle_player_direita",
-    "path":"sprites/spr_idle_player_direita/spr_idle_player_direita.yy",
+    "name":"spr_inimigo_porco_idle",
+    "path":"sprites/spr_inimigo_porco_idle/spr_inimigo_porco_idle.yy",
   },
   "visible":true,
 }
